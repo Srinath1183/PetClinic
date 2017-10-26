@@ -3,8 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git(url: 'https://github.com/mitesh51/spring-petclinic.git', branch: 'master')
+        git(url: 'https://github.com/Srinath1183/PetClinic.git', branch: 'master')
       }
     }
+
   }
 }
